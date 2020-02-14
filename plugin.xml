@@ -135,7 +135,7 @@
         <config-file platform="ios" target="*-Info.plist" parent="VOXEET_CORDOVA_CONSUMER_SECRET">
             <string>$VOXEET_CORDOVA_CONSUMER_SECRET</string>
         </config-file>
-        
+
         <source-file src="src/ios/CDVVoxeet.swift" />
         <header-file src="src/ios/Test-Bridging-Header.h" type="BridgingHeader" />
 
@@ -143,5 +143,6 @@
         <framework src="src/ios/Carthage/Build/iOS/VoxeetSDK.framework" custom="true" embed="true" />
         <framework src="src/ios/Carthage/Build/iOS/WebRTC.framework" custom="true" embed="true" />
         <framework src="src/ios/Carthage/Build/iOS/SDWebImage.framework" custom="true" embed="true" />
+        <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
     </platform>
 </plugin>
