@@ -147,7 +147,7 @@
             <config>
                 <source url="https://github.com/brightcove/BrightcoveSpecs.git" />
                 <source url="https://github.com/CocoaPods/Specs.git"/>
-                <source url="https://github.com/voxeet/voxeet-uxkit-ios"/>
+                <source url="https://github.com/voxeet/voxeet-uxkit-ios.git"/>
             </config>
             <pods use-frameworks="true">
                 <pod name="VoxeetUXKit" spec="~> 1.0" swift-version="5.0" />
