@@ -26,4 +26,4 @@
 //
 
 #import <VoxeetSDK/VoxeetSDK.h>
-#import <VoxeetConferenceKit/VoxeetConferenceKit.h>
+#import <VoxeetUXKit/VoxeetUXKit.h>

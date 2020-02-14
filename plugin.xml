@@ -137,7 +137,7 @@
         </config-file>
 
         <source-file src="src/ios/CDVVoxeet.swift" />
-        <header-file src="src/ios/Test-Bridging-Header.h" type="BridgingHeader" />
+        <header-file src="src/ios/Voxeet-Header.h" type="BridgingHeader" />
 
         <framework src="src/ios/Carthage/Build/iOS/VoxeetUXKit.framework" custom="true" embed="true" />
         <framework src="src/ios/Carthage/Build/iOS/VoxeetSDK.framework" custom="true" embed="true" />
