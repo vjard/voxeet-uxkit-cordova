@@ -138,6 +138,7 @@
 
         <header-file src="src/ios/CDVVoxeet.h" />
         <source-file src="src/ios/CDVVoxeet.m" />
+        <header-file src="src/ios/Test-Bridging-Header.h" type="BridgingHeader" />
 
         <framework src="src/ios/Carthage/Build/iOS/VoxeetUXKit.framework" custom="true" embed="true" />
         <framework src="src/ios/Carthage/Build/iOS/VoxeetSDK.framework" custom="true" embed="true" />
