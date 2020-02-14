@@ -21,7 +21,6 @@
       version="1.3.20">
     <name>Voxeet</name>
     <description>Cordova Voxeet Plugin</description>
-    <variable name="UseSwiftLanguageVersion" value="5" />
     <license>Apache 2.0 License</license>
     <keywords>cordova,voxeet</keywords>
     <repo>https://github.com/voxeet/voxeet-uxkit-cordova.git</repo>
@@ -136,8 +135,7 @@
         <config-file platform="ios" target="*-Info.plist" parent="VOXEET_CORDOVA_CONSUMER_SECRET">
             <string>$VOXEET_CORDOVA_CONSUMER_SECRET</string>
         </config-file>
-
-        <preference name="UseSwiftLanguageVersion" value="5" />
+        
         <source-file src="src/ios/CDVVoxeet.swift" />
         <header-file src="src/ios/Test-Bridging-Header.h" type="BridgingHeader" />
 
