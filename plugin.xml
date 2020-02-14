@@ -136,8 +136,7 @@
             <string>$VOXEET_CORDOVA_CONSUMER_SECRET</string>
         </config-file>
 
-        <header-file src="src/ios/CDVVoxeet.h" />
-        <source-file src="src/ios/CDVVoxeet.m" />
+        <source-file src="src/ios/CDVVoxeet.swift" />
         <header-file src="src/ios/Test-Bridging-Header.h" type="BridgingHeader" />
 
         <framework src="src/ios/Carthage/Build/iOS/VoxeetUXKit.framework" custom="true" embed="true" />
