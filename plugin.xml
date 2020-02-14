@@ -106,7 +106,6 @@
     <!-- ios -->
     <platform name="ios">
         <hook type="before_plugin_install" src="build_ios_frameworks.js" />
-        <hook type="before_plugin_install" src="add-swift-support.js" />
 
         <config-file target="config.xml" parent="/*">
             <feature name="Voxeet">
@@ -144,5 +143,7 @@
         <framework src="src/ios/Carthage/Build/iOS/VoxeetSDK.framework" custom="true" embed="true" />
         <framework src="src/ios/Carthage/Build/iOS/WebRTC.framework" custom="true" embed="true" />
         <framework src="src/ios/Carthage/Build/iOS/SDWebImage.framework" custom="true" embed="true" />
+
+        <hook type="after_prepare" src="add-swift-support.js" />
     </platform>
 </plugin>
