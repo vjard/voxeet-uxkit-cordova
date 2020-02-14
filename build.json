@@ -1,0 +1,31 @@
+{
+
+  "ios": {
+
+    "debug": {
+
+      "buildFlag": [
+
+        "SWIFT_VERSION = 5.0",
+
+        "EMBEDDED_CONTENT_CONTAINS_SWIFT = YES"
+
+      ]
+
+    },
+
+    "release": {
+
+      "buildFlag": [
+
+        "SWIFT_VERSION=5.0",
+
+        "EMBEDDED_CONTENT_CONTAINS_SWIFT=YES"
+
+      ]
+
+    }
+
+  }
+
+}
